@@ -1,0 +1,114 @@
+#Menu {
+  background-color: #555;
+  }
+#Kopp {
+  color: white;
+  font-family: 'Titillium Web', 'verdana', 'Roboto', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 2vw;
+  //top:0.1vh;
+  width:10vw;
+}
+#menu01 {
+  color: white;
+  background-color: #555;
+  font-family: verdana;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  //padding-top: -100px;
+  height: 6%;
+  //margin: 0px;
+  padding-bottom: 5px;
+  border-top: 2px;
+  border-right: 2px;
+  border-left: 2px;
+  border-radius: 5px;
+  border: 2px solid rgb(240,240,240);
+  }
+#MenuA {
+  color: rgb(240,240,240);
+  background-color: #555;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-family: verdana;
+  font-weight: bold;
+}
+}
+#WelcomeA1 {
+  background-color:rgb(240,240,240);
+  margin: 0px;
+}
+
+#Nadpis1 {
+  color:rgb(240,240,240);
+  font-family: verdana;
+  font-size: 75%;
+}
+
+#Nadpis20 {
+  color:rgb(240,240,240);
+  font-family: verdana;
+  font-size: 60%;
+}
+
+.centered2 {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.centered {
+  position: absolute;
+  top: 13.6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#NadpisKontakt {
+  color: rgb(0,0,0);
+  font-family: verdana;
+  font-size: 300%;
+}
+@media(min-width: 1080px){
+
+  #Nadpis1 {
+  color: rgb(240,240,240);
+  font-family: verdana;
+  font-size: 250%;
+  }
+
+  .centered {
+  position: absolute;
+  top: 56vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  #Nadpis20 {
+  color:rgb(240,240,240);
+  font-family: verdana;
+  font-size: 200%;
+  }
+  .centered2 {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+}
+
+
+
+
+/* CSS Document */
