@@ -66,18 +66,6 @@
         .dropdown:hover .dropdown-content {display: block;}
         
         .dropdown:hover .dropbtn {background-color: #666;}
-        #dropfall{
-        -webkit-animation: action 1.2s infinite  alternate;
-        animation: action 1.2s infinite  alternate;
-    }
-    @-webkit-keyframes action {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-1rem); }
-    }
-    @keyframes action {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-1rem); }
-    }
         </style>
         <div id="menu" style='width:100%;background-color:#555;'>
         <h1 onclick='location.reload()' id='Kopp'> Czech Beta </h1>
@@ -86,7 +74,7 @@
           <button class="dropbtn" style='font-family:verdana;font-weight:bold;'>Menu</button>
           <div class="dropdown-content">
             <a style='color:white; font-family:verdana;'href="/">Domů</a>
-            <a style='color:white; font-family:verdana; border-top:0.5vh solid silver;'href="teams">War, CG</a>
+            <a style='color:white; font-family:verdana; border-top:0.5vh solid silver;'href="pravidla">Pravidla</a>
         
   </div>
 </div>
@@ -97,7 +85,13 @@
   </center>
   </div>
 
-
+<script>
+  function send() {
+  setTimeout(function() {
+    window.open("mailto:" + document.getElementById('email').value + "?subject=" + document.getElementById('subject').value + "&body=" + document.getElementById('message').value);
+  }, 320);
+  }
+</script>
 <style>
 
 textarea {
@@ -119,47 +113,37 @@ input:focus {
 
 </style>                                                                                                                            
 <center>
-<div style="background-color:yellow;font-size:100%;">
+<div style="background-color:yellow;min-height:100vh;font-size:100%;">
 <br>
-<h1 style="font-size:400%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">Pravidla<br><i id="dropfall"class="fa fa-chevron-down"></i></h1>
+<h1 style="font-size:300%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;max-width:50%;">Info k Clan Wars, Clan Games a Clan War League<br><i class="fa fa-chevron-down"></i></h1>
 <br>
-<div style="width:40%;text-algin:left;">                                                                                                                                      
-<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Pravidla pro přijetí</u></h3>
-<br>
-
-  <p style="font-size:150%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">Town hall 6+ <i class="fa fa-university"></i></p>
-  <p style="font-size:150%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">Alespoň 1400 <i class="fa fa-trophy"></i>+</p>
-
-<br>
-</div>
-<div style="background-color:white;font-size: 200%;">
-<br>
-<h3 style="font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Hodnosti</u></h3>
+<div style="width:90%;text-algin:left;">                                                                                                                                      
+                                                                                                                                    
+<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Clan Wars</u></h3>
 <br>
 
-  <p style="font-size:65%;max-width:40%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">Elder <i class="fa fa-graduation-cap"></i> &nbsp;Přijímá nové hráče ale nesmí kickovat! Dostanete ho za aktivitu, donate 8000+ a snahu. </p>
-  <p style="font-size:65%;max-width:40%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">Co-Leader <i class="fa fa-cog"></i> &nbsp;Každý Co-Leader má na starosti něco jiného. Každopádně Co-leader můžete být jen pokud jste opravdu extra aktivní, donatujete a hrajte.</p>
-  <p style="font-size:65%;max-width:40%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;">O promote neproste a neupozorňujte na to. Pokud si ho zasloužíte, všimneme si toho.</p><br>
-</div>
-<div style="max-width:40%;background-color:yellow;max-width:90%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;height:50vh;">
-<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Ostatní pravidla</u></h3>
+  <p style="font-size:150%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;max-width:40%;">Clan Wars jsou většinou v menším počtu. Jednou za čas se dělá "Celoclanová". Pokud nechcete být v Clan Wars,najeďte si na svůj profil a uvidíte zelené/červené tlačítko Clan wars. Když na něj kliknete změní se na červené nebo zelené. Když je červené, znamená to že do CW nechcete. A když zelené tak ano. Důležité je poslouchat pokyny. Každá CW má svou vlastní strategii, kterou vždy naleznete v Clan Mailu. Pokud možno choďte s kompletní army a plným Clan Castlem. Za neuposlechnutí či nezaútočení hrozí kick! <i class="fa fa-shield"></i></p>
 <br>
-<ul>
-<li style="font-size:150%;float:left;margin-left:38vw;">Donate 1:2</li><br>
-<li style="font-size:150%;float:left;margin-left:38vw;">Aktivita</li><br>
-<li style="font-size:150%;float:left;margin-left:38vw;">Donatovat to o co se žádá</li><br>
-<li style="font-size:150%;float:left;margin-left:38vw;">Pomáhat slabším hráčům</li><br>
-<li style="font-size:150%;float:left;margin-left:38vw;">Do CG alespoň 1000 bodů</li><br> 
-</ul>
-</div>
-<div style="width:40%;text-algin:left;">                                                                                                                                      
-<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Donate</u></h3>
+</div><br>
+  </div>
+<div style="width:40%;text-algin:left;background-color:white;font-size:100%;">     <br>                                                                                                                                 
+<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Clan Games</u></h3>
 <br>
 
-  <p style="font-size:200%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;font-size:150%;">  Poměr 1:2 to znamená že za každou jednotku kterou někomu dáte si můžete žádat dvě, příklad: 10 : 20 - 10 jsem někomu dal a teď můžu žádat dvojnásobek. Tuto hranici byste neměli překračovat. Donate do cw zajišťují lepší hráči co mají větší levly daných jednotek! </p>
+  <p style="font-size:150%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> Clan Games se týkají každého s Town Hall 6<i class="fa fa-home"></i>+. Jde o plnění úkolů za které je určitý počet bodů. Ty se sčítají v celém Clanu. A podle celkového počtu si na konci vybíráme odměny. Od každého je očekáváno alespoň 1500 bodů. Za nezúčastnění se je kick (samozřejmě se lze omluvit). Vyplatí se snažit! </p>
 <br>
+</div><br>
+  <div style="background-color:yellow;font-size:100%;">
+<div style="width:40%;text-algin:left;">                  
+  <br>
+<h3 style="font-size:200%;font-weight:500;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> <u>Clan War League</u></h3>
 <br>
-</div>
+
+  <p style="font-size:150%;font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;"> Výsledné hodnocení CWL se počíta podle nasbíraných hvězd. Proto i když jednotlivé bitvy prohráváme, se můžeme dobře umístit. Proto je potřeba poslouchat pokyny !! Strategie se domlouvá vždy prostřednictvím chatu a inboxu. Proto je dobré to pokud možno číst. Za Clan War League dostáváte super odměny - opravdu se vyplatí se ten týden snažit.<br><br>V CWL máte pouze jeden útok což znamená že se potřeba ho dobře využít. Na každý útok se dobře připravte a řiďte se pokyny ! Pokud domluvený cíl nezvládnete alespoň na dvě hvězdy řekněte to a nějak se domluvíme... lepší než to ostatním zkazit! </p>
+<br>
+</div><br>
+  
+  </div>
 </div>
 </center>
 
